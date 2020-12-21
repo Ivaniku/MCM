@@ -1,15 +1,17 @@
-𝗪𝗵𝗮𝘁 𝗶𝘀 𝗠𝗖𝗠
+# Does my system support MCM?
 
-MCM is a Minecraft server MANAGER for Windows and Unix-like systems, it is totally independant of the server itself. It doesn't affect performance.
+If your system is WindowsNT based then in theory it should work without any problem. If your system is Unix or similar you should jump to the Windows branch.
 
-𝗪𝗵𝘆 𝗠𝗖𝗠
+Currently it has only been tested on Ubuntu but anything that supports Java and Git (optional) should work with no problem ^^
 
-it makes server management and updating easy, imagine updating an entire server with only one click. No more boring commands.
+# How2SetUpMCM
 
-𝗟𝗶𝗻𝘂𝘅 𝗮𝗻𝗱 𝗠𝗮𝗰𝗢𝗦 𝘀𝘂𝗽𝗽𝗼𝗿𝘁
+To set up MCM you only need to install two dependencies that you probably already have:
+- Java (required for both the server and the updater)
+- Git (totally optional and useless on Windows, if you don't have git MCM will install a portable version)
 
-Yes! And not only linux and MacOS. But also every Unix-like system! Just jump to the Unix branch and see the setup guide
+Now if you want to make your server accessible worldwide we need to mirror it with ngrok, to connect your server to ngrok you need to connect a ngrok account. To do that you need to make an account in https://www.ngrok.com and following the steps in https://dashboard.ngrok.com/get-started/setup. After that MCM will automatically mirror your server.
 
-𝗜𝘀 𝗶𝘁 𝗺𝗮𝗹𝘄𝗮𝗿𝗲?
+# IMPORTANT STEP!
 
-Short answer: No, long answer: It's only a group of batch files that can be executed and controlled through a simple control panel. if you still don't think this is safe you can check the source code and if you're a real hackerman you can modify it by yourself 😎
+Since it's illegal to include a copy of the server software in any form in the repo you need to run the updater first. Or else if you don't have git you can manually download a server software. But it must be named "Server.jar"
