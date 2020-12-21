@@ -2,7 +2,7 @@
 
 If your system is unix based then in theory it should work without any problem. If your system is WindowsNT based you should jump to the Windows branch.
 
-Currently it has only been tested on Ubuntu but anything that supports Java and Git (optional) should work with no problem ^^
+Currently it has only been tested on Ubuntu but any Unix or similar system that supports Java and Git (optional) should work with no problem ^^
 
 # How2SetUpMCM
 
