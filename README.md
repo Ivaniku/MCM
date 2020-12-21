@@ -1,6 +1,7 @@
 𝗪𝗵𝗮𝘁 𝗶𝘀 𝗠𝗖𝗠
 
 MCM is a Minecraft server MANAGER for Windows and Unix-like systems, it is totally independant of the server itself. It doesn't affect performance.
+
 𝗪𝗵𝘆 𝗠𝗖𝗠
 
 it makes server management and updating easy, imagine updating an entire server with only one click. No more boring commands.
