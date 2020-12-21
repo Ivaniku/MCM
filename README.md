@@ -1,14 +1,13 @@
 𝗪𝗵𝗮𝘁 𝗶𝘀 𝗠𝗖𝗠
 
-MCM is a Minecraft server MANAGER for Windows, it is totally independant of the server itself. When you close it it actually closes, no hidden processes (in conclussion the performance is the same)
-
+MCM is a Minecraft server MANAGER for Windows and Unix-like systems, it is totally independant of the server itself. It doesn't affect performance.
 𝗪𝗵𝘆 𝗠𝗖𝗠
 
-it makes server management and updating easy, imagine updating the entire server with only one click. No more boring commands.
+it makes server management and updating easy, imagine updating an entire server with only one click. No more boring commands.
 
 𝗟𝗶𝗻𝘂𝘅 𝗮𝗻𝗱 𝗠𝗮𝗰𝗢𝗦 𝘀𝘂𝗽𝗽𝗼𝗿𝘁
 
-Not yet, but when i translate it it will have no GUI. Why? It will only support Unix-based OS's and the objective will be to run it in a terminal, but it will be usable on MacOS
+Yes! And not only linux and MacOS. But also every Unix-like system! Just jump to the Unix branch and see the setup guide
 
 𝗜𝘀 𝗶𝘁 𝗺𝗮𝗹𝘄𝗮𝗿𝗲?
 
