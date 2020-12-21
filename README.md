@@ -1,15 +1,19 @@
-𝗪𝗵𝗮𝘁 𝗶𝘀 𝗠𝗖𝗠
+# Does my system support MCM?
 
-MCM is a Minecraft server MANAGER for Windows, it is totally independant of the server itself. When you close it it actually closes, no hidden processes (in conclussion the performance is the same)
+If your system is unix based then in theory it should work without any problem. If your system is WindowsNT based you should jump to the Windows branch.
 
-𝗪𝗵𝘆 𝗠𝗖𝗠
+Currently it has only been tested on Ubuntu but anything that supports Java and Git (optional) should work with no problem ^^
 
-it makes server management and updating easy, imagine updating the entire server with only one click. No more boring commands.
+# How2SetUpMCM
 
-𝗟𝗶𝗻𝘂𝘅 𝗮𝗻𝗱 𝗠𝗮𝗰𝗢𝗦 𝘀𝘂𝗽𝗽𝗼𝗿𝘁
+To set up mcm you only need to install two dependencies that you probably already have:
+- Java (required for both the server and the updater)
+- Git (optional, without it the updater wouldn't work)
 
-Not yet, but when i translate it it will have no GUI. Why? It will only support Unix-based OS's and the objective will be to run it in a terminal, but it will be usable on MacOS
+After installing the dependencies you need to make sure that all .sh files are marked as executable to avoid problems.
 
-𝗜𝘀 𝗶𝘁 𝗺𝗮𝗹𝘄𝗮𝗿𝗲?
+Now if you want to make your server accessible worldwide we need to mirror it with ngrok, to connect your server to ngrok you need to connect a ngrok account. To do that you need to make an account in https://www.ngrok.com and following the steps in https://dashboard.ngrok.com/get-started/setup. After that MCM will automatically mirror your server.
 
-Short answer: No, long answer: It's only a group of batch files that can be executed and controlled through a simple control panel. if you still don't think this is safe you can check the source code and if you're a real hackerman you can modify it by yourself 😎
+# IMPORTANT STEP!
+
+Since it's illegal to include a copy of the server software in any form in the repo you need to run the updater first. Or else if you don't have git you can manually download a server software. But it must be named "Server.jar"
