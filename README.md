@@ -7,7 +7,7 @@ Currently it has only been tested on Ubuntu but anything that supports Java and 
 # How2SetUpMCM
 
 To set up MCM you only need to install two dependencies that you probably already have:
-- Java (required for both the server and the updater)
+- Java (required for both the server and the updater, A.K.A jsk)
 - Git (optional, without it the updater wouldn't work)
 
 After installing the dependencies you need to make sure that all .sh files are marked as executable to avoid problems.
