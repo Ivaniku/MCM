@@ -2,7 +2,7 @@
 
 If your system is WindowsNT based then in theory it should work without any problem. If your system is Unix or similar you should jump to the Unix branch.
 
-Currently it has only been tested on Windows 10 but anything that supports Java and Git (optional) should work with no problem ^^
+Currently it has only been tested on Windows 10 but any Windows edition that supports Java and Git (optional) should work with no problem ^^
 
 # How2SetUpMCM
 
