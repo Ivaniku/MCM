@@ -1,3 +1,4 @@
+#!/bin/sh
 rm -r ServerBuild
 mkdir ServerBuild
 java -jar Builder.jar --output-dir ./ServerBuild
